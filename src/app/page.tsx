@@ -18,7 +18,8 @@ export default function Home() {
         <div className="hidden md:flex items-center space-x-8">
           <a href="#features" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Features</a>
           <a href="#download" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Download</a>
-          <a href="#support" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Support</a>
+          <a href="/support" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Support</a>
+          <a href="/privacy" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Privacy</a>
           <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-full hover:from-blue-600 hover:to-purple-700 transition-all duration-300">
             Try Free
           </button>
@@ -112,8 +113,23 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-gray-200 dark:border-gray-700 mt-16 py-8">
-        <div className="container mx-auto px-6 md:px-12 text-center text-gray-600 dark:text-gray-400">
-          <p>&copy; 2024 JigsawDesigner. Professional jigsaw design software solutions.</p>
+        <div className="container mx-auto px-6 md:px-12">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <p className="text-gray-600 dark:text-gray-400">
+              &copy; 2024 JigsawDesigner. Professional jigsaw design software solutions.
+            </p>
+            <div className="flex space-x-6">
+              <a href="/support" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 transition-colors">
+                Support
+              </a>
+              <a href="/privacy" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 transition-colors">
+                Privacy Policy
+              </a>
+              <a href="https://github.com/zixzeus/jigsawdesigner-website" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 transition-colors">
+                GitHub
+              </a>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
