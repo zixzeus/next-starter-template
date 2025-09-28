@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "Privacy Policy - JigsawDesigner",
@@ -18,14 +19,14 @@ export default function Privacy() {
             height={32}
             className="rounded-lg"
           />
-          <a href="/" className="text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 transition-colors">
+          <Link href="/" className="text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 transition-colors">
             JigsawDesigner
-          </a>
+          </Link>
         </div>
         <div className="hidden md:flex items-center space-x-8">
-          <a href="/" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Home</a>
-          <a href="/support" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Support</a>
-          <a href="/privacy" className="text-blue-600 font-semibold">Privacy</a>
+          <Link href="/" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Home</Link>
+          <Link href="/support" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Support</Link>
+          <Link href="/privacy" className="text-blue-600 font-semibold">Privacy</Link>
         </div>
       </nav>
 
@@ -44,7 +45,7 @@ export default function Privacy() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Introduction</h2>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                JigsawDesigner ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our jigsaw design software application.
+                JigsawDesigner (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our jigsaw design software application.
               </p>
             </section>
 
@@ -118,7 +119,7 @@ export default function Privacy() {
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Children's Privacy</h2>
+              <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Children&apos;s Privacy</h2>
               <p className="text-gray-600 dark:text-gray-300">
                 Our application is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13.
               </p>
@@ -127,7 +128,7 @@ export default function Privacy() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Changes to This Policy</h2>
               <p className="text-gray-600 dark:text-gray-300">
-                We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.
+                We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the &ldquo;Last updated&rdquo; date.
               </p>
             </section>
 

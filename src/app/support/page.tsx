@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "Support - JigsawDesigner",
@@ -18,14 +19,14 @@ export default function Support() {
             height={32}
             className="rounded-lg"
           />
-          <a href="/" className="text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 transition-colors">
+          <Link href="/" className="text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 transition-colors">
             JigsawDesigner
-          </a>
+          </Link>
         </div>
         <div className="hidden md:flex items-center space-x-8">
-          <a href="/" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Home</a>
-          <a href="/support" className="text-blue-600 font-semibold">Support</a>
-          <a href="/privacy" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Privacy</a>
+          <Link href="/" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Home</Link>
+          <Link href="/support" className="text-blue-600 font-semibold">Support</Link>
+          <Link href="/privacy" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Privacy</Link>
         </div>
       </nav>
 
@@ -126,7 +127,7 @@ export default function Support() {
                 Is there a limit to the number of puzzle pieces?
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
-                JigsawDesigner can handle puzzles with thousands of pieces. The actual limit depends on your device's performance, but most users can comfortably create puzzles with 500-2000 pieces.
+                JigsawDesigner can handle puzzles with thousands of pieces. The actual limit depends on your device&apos;s performance, but most users can comfortably create puzzles with 500-2000 pieces.
               </p>
             </div>
 
@@ -149,7 +150,7 @@ export default function Support() {
             <div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">1. Creating Your First Puzzle</h3>
               <ul className="list-disc pl-6 text-gray-600 dark:text-gray-300 space-y-2">
-                <li>Launch JigsawDesigner and select "New Project"</li>
+                <li>Launch JigsawDesigner and select &ldquo;New Project&rdquo;</li>
                 <li>Choose your canvas size and import an image</li>
                 <li>Set the number of pieces and piece style</li>
                 <li>Use the cutting algorithm to generate puzzle pieces</li>
